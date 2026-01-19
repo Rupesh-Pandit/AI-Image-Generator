@@ -1,0 +1,76 @@
+.ai-image-generator {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background: linear-gradient(blue, rgb(255, 0, 34), rgb(178, 195, 32));
+    padding: 5px 20px;
+}
+
+.header span {
+    color: aquamarine;
+}
+
+.img-loading {
+    font-size: 18px;
+    font-weight: 300px;
+    font-family: sans-serif
+}
+
+
+.image img {
+    border-radius: 10px;
+    box-shadow: 3px 1px 15px #f80950f2;
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+}
+
+.ImageGenerator {
+    display: flex;
+    height: 64px;
+    width: auto;
+    background-color: rgb(60, 56, 49);
+   padding-left: 16px;
+    border-radius: 22px;
+
+}
+
+.ImageGenerator input {
+
+    width: 400px;
+    margin-right: 11px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 10px;
+    background: transparent;
+
+
+}
+
+.btn {
+    border: none;
+    color: aliceblue;
+    background-image: linear-gradient(blue, green);
+    padding: 10px 15px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
